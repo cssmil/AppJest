@@ -1,5 +1,4 @@
 import { describe, test, expect } from '@jest/globals';
-
 import { fireEvent, render, screen } from "@testing-library/react"
 import { CounterApp } from "../../components/counterApp"
 

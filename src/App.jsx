@@ -1,7 +1,6 @@
 import { FirstApp } from "./components/FirstApp"
 import { CounterApp } from "./components/counterApp"
 
-
 const App = () => {
   return (
     <>

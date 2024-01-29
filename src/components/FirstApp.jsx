@@ -1,7 +1,6 @@
 import PropTypes from 'prop-types'
 
 export const FirstApp = ({title, subTitle, name}) => {
-
   return (
     <>
       <h1 className="mt-2"> { title } </h1>

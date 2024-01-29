@@ -1,9 +1,7 @@
 import { getHeroeById } from '../base-pruebas/08-imp-exp'
 
 export const getHeroeByIdAsync = ( id ) => {
-
     return new Promise( (resolve, reject) => {
-
         setTimeout( () =>  {
             // Tarea
             // importen el 
@@ -14,8 +12,5 @@ export const getHeroeByIdAsync = ( id ) => {
                 reject( 'No se pudo encontrar el héroe' );
             }
         }, 500 )
-    
     });
-
-
 }
